@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(218, 206, 206);  }
+
+.container{
+    background: url("space.gif") no-repeat;
+    background-position: center !important;   
+}
+
+.article{
+    width: 301px;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-top-left-radius: 20px 50px;
+    margin: 70px;
+    padding: 2px;
+    background: black;
+    box-shadow: 50px 50px 50px 30px rgba(0,0,0,.6);
+    transition: box-shadow 0.1s;
+    transition-delay: .3s;
+}
+
+
+  
+  article:hover{
+    box-shadow: 100px 100px 70px rgba(0,0,0,.7);
+    background: pink;
+  }
+  
+  .articles{
+    height: 301px;
+    width: 301px;
+    border-radius: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+  
+  }

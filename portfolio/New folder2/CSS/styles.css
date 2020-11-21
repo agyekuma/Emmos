@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+h3 {
+  font-family: Caveat;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+body {
+  margin-top: 100px;
+  background-size: cover;
+  border: auto;
+  color:rgb(156, 182, 8);
+  text-shadow: 1px 1px 1px blue;
+  background: url("space.gif") ;
+  background-position: center !important;
+}
+
+#two-links{
+  width: 1000px;
+  margin: auto;
+}
+
+article {
+  width: 301px;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-top-left-radius: 20px 50px;
+  margin: 70px;
+  padding: 2px;
+  background:#031524;
+  box-shadow: 50px 50px 50px 30px rgba(0,0,0,.6);
+  transition: box-shadow 0.1s;
+  transition-delay: .3s;
+}
+
+article:hover{
+  box-shadow: 100px 100px 70px rgba(0,0,0,.7);
+  background: pink;
+}
+
+.articles{
+  height: 301px;
+  width: 301px;
+  border-radius: 100%;
+  background-size: cover !important;
+  background-position: center !important;
+
+}
+
+.links {
+  font-style: italic;
+  color: red;
+}
+
+p {
+  word-spacing: 3px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: overline underline;
+  text-decoration-style: dashed;
+  text-decoration-color: rgba(83, 82, 82, 0.342);
+}
+
+a:hover {
+  font-size: 25px;
+  color:black;
+  text-shadow: blue(183, 0, 255, 0.555);
+  text-decoration-color: rgb(226, 0, 0)
+
+}
+
